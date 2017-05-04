@@ -1,24 +1,26 @@
-# README
+Sobre o projeto
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sistema incrivelmente simples para conversão de moedas.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+About the project
 
-* Configuration
+Increadible simple exchange currencies sistem
 
-* Database creation
+Access: <a href="http://bootcamp-exchange.herokuapp.com/">Here</a>
 
-* Database initialization
+Stack
 
-* How to run the test suite
+  * Application
+Dependencies
 
-* Services (job queues, cache servers, search engines, etc.)
+  * Fixer.io to consult currency rates
+Getting Started
 
-* Deployment instructions
+  * docker-compose build
+  * docker-compose run --rm website rake db:create db:migrate
+  * docker-compose up
+Test
 
-* ...
+  * docker-compose run --rm website rspec
