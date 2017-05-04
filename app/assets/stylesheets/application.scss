@@ -4,4 +4,16 @@
 @import 'home';
 @import '_exchange_box';
 
+.footer {
+	margin: 0 auto;
+	color: white;
+	float: right;
+	padding: 25px;
+	margin-right: 30px;
 
+	a {
+		color: #ecf0f1;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
