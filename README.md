@@ -1,26 +1,31 @@
-Sobre o projeto
+# Sobre o projeto
 
 Sistema incrivelmente simples para conversão de moedas.
 
 
 
-About the project
+# About the project
 
 Increadible simple exchange currencies sistem
 
-Access: <a href="http://bootcamp-exchange.herokuapp.com/">Here</a>
+[Bootcamp-exchange](https://raw.githubusercontent.com/CristiAllan/bootcamp_exchange/master/public/the_app.png)
 
-Stack
+Access: [HERE](http://bootcamp-exchange.herokuapp.com/)
 
-  * Application
-Dependencies
+# Stack
 
-  * Fixer.io to consult currency rates
-Getting Started
+   Application
 
-  * docker-compose build
-  * docker-compose run --rm website rake db:create db:migrate
-  * docker-compose up
-Test
+# Dependencies
 
-  * docker-compose run --rm website rspec
+   Fixer.io to consult currency rates
+
+# Getting Started
+
+   docker-compose build
+   docker-compose run --rm website rake db:create db:migrate
+   docker-compose up
+
+# Test
+
+   docker-compose run --rm website rspec
